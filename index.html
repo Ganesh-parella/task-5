@@ -1,0 +1,88 @@
+><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>address book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Address Book</header>
+    <nav style="background-color: black;">
+        <ul class="navbar">
+            <li>HOME</li>
+            <li id="+add">+ADD</li>
+            <img id="blog" src="blog-icon.png" alt="blog icon">
+        </ul>
+    </nav>
+    <div class="column">
+    <section class="section1">
+    <p id="contacts"><b>CONTACTS</b></p>
+    <div class="contactlist">
+    <!-- <div>
+            <p>Chandermani Arora</p>
+            <p>chandermani@technovert.com</p>
+            <p>+91 92929292922</p>
+        </div>
+           <div>
+             <p>Sashi Pagadala</p>
+            <p>vijay@technovert.com</p>
+            <p>+91 92929292922</p>
+        </div>
+        <div>
+            <p>Praveen Battula</p>
+            <P>vijay@technovert.com </P>
+            <p>+91 92929292922</p>
+        </div>
+        <div>
+            <p>Vijay Yalamanchili</p>
+            <p>vijay@technovert.com </p>
+            <p>+91 92929292922</p>
+        </div>
+    </div> -->
+
+    </section>
+    
+    <section class="section2">
+        <div id="form">
+        <form id="formpage" target="_parent" onsubmit="return validation()" >
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="Name"><br>
+            <label for="Email"> Email</label><br>
+            <input type="text" name="Email" id="Email"><br>
+            <br>
+            <div class="contact_number">
+                
+                <div><label for="Mobile">Mobile</label><br>
+                <input type="text" name="Mobile" id="Mobile">
+                </div>
+                <div>
+                <label for="Landline" style="margin-left: 50px;">Landline</label><br>
+                <input type="text" name="Landline" id="Landline">
+                </div>
+            </div><br>
+           <label for="Address">Address</label><br>
+            <input type="text" name="Address" id="Address">
+           <br> <input type="button" name="Add" id="Add" value="Add"></input>
+        </form>
+        </div>
+    </section>
+    <section class="section3">
+        <div>
+
+        </div>
+        <div class="ed" >
+            <img src="edit1.jpg" alt="edit-icon">
+            <p id="edit">EDIT</p>
+        </div>
+        <div  class="ed">
+            <img src="delete2.png" alt="delete-icon">
+            <p id="delete">DELETE</p>
+        </div>
+    </section>
+
+    
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

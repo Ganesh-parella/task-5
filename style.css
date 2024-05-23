@@ -1,0 +1,185 @@
+header
+{
+    background-color: hsl(200, 60%, 50%);
+    font-size: 45px;
+    color: #fff;
+   
+    padding: 45px 0px ;
+    padding-left: 24px;
+    margin: 0px;
+    
+}
+nav
+{
+    background-color: black;
+    position: relative;
+    
+    color: #fff;
+}
+#blog
+{
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+ul.navbar
+{
+    margin: 0px;
+    padding-left: 14px;
+}
+ul.navbar li
+{
+    list-style: none;
+    display: inline-flex;
+    padding: 13px;
+}
+ul.navbar li:hover
+{
+    background-color: #CEE7F2;
+}
+#contacts
+{
+    font-size: 16px;
+    padding: 22px 0px 15px 0px;
+}
+.column
+{
+    display: flex;
+    
+}
+.section1
+{
+    margin-left: 20px;
+    width: 440px;
+}
+.section2{
+    width: 1fr;
+}
+.contact_number
+{
+   display: inline-flex;
+}
+.contact_number input
+{
+    width: 275px;
+}
+#Landline
+{
+    margin-left: 50px;
+}
+#form
+{   margin: 25px;
+    padding:5px;
+    background-image: radial-gradient(#010101,#fff);
+    display: none;
+}
+form
+{
+    width: 775px;
+    margin-bottom: 0px;
+    border: 0.5px solid #939393;
+   /* box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2),5px 5px 5px 5px rgba(0, 0, 0, 0.2);*/
+   background-color: #fff;
+    padding: 25px 25px 100px 25px;
+    position: relative;
+}
+input
+{
+    width: 600px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 5px 0px 12px 0px;
+}
+label
+{
+    font-weight: bold;
+}
+#Address
+{   margin-top: 5px;
+    border: 1px solid black;
+}
+#Add
+{
+    font-size: 15px;
+    position:absolute;
+    margin: 10px 0px 40px 0px;
+    right: 50px;
+    width: 150px;
+    background-color: #468C00;
+    color: white;
+}
+.contactlist{
+    width: 440px;
+    
+}
+
+.contactlist div
+{
+    border: 0.5px solid #cccccc;
+    font-size: 13px;
+    padding: 10px;
+}
+.contactlist div p:first-child
+{
+    font-size: 30px;
+    
+    padding: 0px;
+    margin: 0px;
+}
+.contactlist div:active
+{
+    background-color: #000000;
+}
+.contactlist div:hover
+{
+    background-color: #dcf4ff;
+}
+.section3
+{
+    display: grid;
+    grid-template-columns: 2fr 80px 100px;
+    margin: 65px 0px 0px 100px;
+    column-gap: 30px;
+    font-size: 18px;
+    
+}
+.section3 div img
+{
+    width: 25px;
+    height: 25px;
+}
+.section3 div p
+{
+    margin: 0px;
+    
+}
+.section3 div p:nth-child(even)
+{
+    margin-bottom: 16px;
+}
+.section3 div p:nth-child(5)
+{
+    margin-bottom: 16px;
+}
+.section3 div h1
+{
+    margin-top: 0px;
+    font-size: 30px;
+}
+.section3:first-child:last-child
+{
+    display: flex;
+ 
+}
+#Address
+{
+    width: 590px;
+    height: 100px;
+}
+.ed
+{
+    display: none;
+     align-items: stretch;
+     justify-content: flex-start;
+      gap:5px;
+}
