@@ -43,7 +43,11 @@ addcontact[3]=
 
 let addBtnfun=(addcontact)=>
     {   
-        
+        let ed= document.querySelectorAll('.ed');
+                  for(let i=0;i<2;i++)
+                    {
+                        ed[i].style.display='none';
+                    }
         document.getElementsByClassName('section3')[0].style.display='none';
         document.getElementById("Name").value=null;
         document.getElementById("Email").value=null;
